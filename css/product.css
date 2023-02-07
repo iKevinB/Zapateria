@@ -1,0 +1,74 @@
+.product-gender{
+    margin-top: 4em;
+    overflow-x: hidden;
+    font-family: 'Josefin Sans';
+}
+.product-gender-container{
+    display: block;
+}
+.product-gender-container img{
+    flex-flow: row wrap;
+    width: 100%;
+    margin-bottom: 1em;
+    filter: drop-shadow(3px 3px 2px gray);
+}
+.men-content{
+    text-align: center;
+}
+.label-product{
+    cursor: pointer;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    opacity: 0.8;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: -155px;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    
+}
+.img-section{
+    height: 15em;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.img-section:hover{
+    transition: 0.5s;
+    transform: scale(0.9);
+}
+@media (min-width: 480px){
+    .product-gender-container{
+        width: 80%;
+        margin: auto;
+    }
+}
+@media (min-width: 768px){
+    .product-gender-container{
+        width: 70%;
+    }
+}
+@media (min-width: 1024px){
+
+    .product-gender-container{
+        width: 80%;
+        margin: auto;
+        margin-top: 3em;
+        display: flex;
+        justify-content: center;
+        gap: 2em;
+    }
+    .img-section{
+        width: 100%;
+        height: 60%;   
+    }
+}
+@media (min-width: 1200px){
+    .product-gender-container{
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 3em;
+    }
+}

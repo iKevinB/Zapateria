@@ -1,0 +1,143 @@
+.carrousels{
+    margin-top: 4em;
+    font-family: 'Josefin Sans';
+}
+.carrousel__element img{
+    height: 12em;
+    width: 100%;
+    filter: drop-shadow(5px 5px 7px gray);
+}
+.carrousel__element_info{
+    text-align: center;
+}
+.carrousel__previous{
+    position: relative;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 30px;
+    top: 120px;
+    z-index: 8;
+    margin-left: 3px;
+}
+.carrousel__previous2,
+.carrousel__previous3{
+    position: relative;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 30px;
+    top: 120px;
+    z-index: 8;
+    margin-left: 3px;
+}
+.carrousel__next{
+    position: relative;
+    float: right;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 30px;
+    bottom: 145px;
+    z-index: 8;  
+    margin-right: 3px;
+}
+.carrousel__next2,
+.carrousel__next3{
+    position: relative;
+    float: right;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 30px;
+    bottom: 145px;
+    z-index: 8;  
+    margin-right: 3px;
+}
+.btn-section__man{
+    background-color: gold;
+}
+.btn-section__man,
+.btn-section__women,
+.btn-section__kids{
+    padding: 10px;
+    border: none;
+    border-radius: 50px;
+    transition:  background-color .5s;
+}
+.btn-section__man:hover,
+.btn-section__women:hover,
+.btn-section__kids:hover{
+    background-color: gold;
+}
+.buttons{
+
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.carrousel-kids{
+    position: absolute;
+    top: -9999px;
+}
+.carrousel-woman{
+    position: absolute;
+    top: -9999px; 
+}
+
+.carrousel-man,
+.carrousel-woman,
+.carrousel-kids{ 
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5em;
+}
+.carrousel-img{
+    object-fit: cover;
+}
+@media (min-width: 480px){
+    .carrousels{
+        width: 85%;
+        margin: auto;
+        margin-bottom: 5em;
+    }
+    .btn-section__man,
+    .btn-section__women,
+    .btn-section__kids{
+        margin: 10px;
+    }
+}
+@media (min-width: 768px){
+    .carrousel-man,
+    .carrousel-woman,
+    .carrousel-kids{ 
+        width: 100%;
+        margin: auto;
+        margin-bottom: 5em;
+    }
+    .carrousels{
+        margin-top: 4em;
+        margin-bottom: 9em;
+    }
+}
+@media (min-width: 1024px){
+    .carrousels{
+        margin-top: -8em;
+    }
+    .carrousel__next,
+    .carroudel__next2,
+    .carrousel__next3{
+        bottom: 140px;
+    }
+}
+
+@media (min-width: 1200px){
+    .carrousels{
+        margin-top: -7em;
+    }
+    .carrousel-man,
+    .carrousel-woman,
+    .carrousel-kids{
+        width: 90%;
+    }
+}
