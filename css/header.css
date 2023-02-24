@@ -5,12 +5,18 @@ header{
     position: fixed;
     top: -30em;
     background-color: var(--third-color);
-    opacity: 0.9;
     z-index: 12;
     width: 100%;
     height: 70%;
     transform: translateY(-20em);
     transition: transform 0.5s ease;
+}
+.header-svg{
+    width: 100%;
+    margin-top: -1em;
+    position: fixed;
+    z-index: 10;
+    filter: drop-shadow(3px 3px 3px gray);
 }
 .navigation2{
     position: fixed;
@@ -44,7 +50,7 @@ header{
     cursor: pointer;
 }
 .first-headerCarrousel-img{
-    filter: opacity(0.5) drop-shadow(0 0 0 black ) blur(1px);
+    /* filter: opacity(0.5) drop-shadow(0 0 0 black ) blur(1px); */
 }
 
 .header-text{
