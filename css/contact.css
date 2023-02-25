@@ -11,18 +11,13 @@
 }
 .contact-item i{
     color: white;
+    margin: 10px;
+    font-size: 30px;
 }
 .contact-item h3{
     color: white;
 }
 
-.contact-img{
-    margin-bottom: 10px;
-}
-.contact-media{
-    margin: 20px;
-    cursor: pointer;
-}
 .wave1{
     position: relative;
     top: 2px;
