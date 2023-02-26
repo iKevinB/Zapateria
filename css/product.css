@@ -5,6 +5,7 @@
 }
 .product-gender-container{
     display: block;
+    margin-top: -2em;
 }
 .product-gender-container img{
     flex-flow: row wrap;
@@ -36,10 +37,21 @@
     transition: 0.5s;
     cursor: pointer;
 }
-/* .img-section:hover{
-    transition: 0.5s;
-    margin-top: 1em;
-} */
+/* main text */
+.main-text{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.main-text p{
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+.main-img{
+    width: 100%;
+    filter: drop-shadow(3px 3px 3px gray);
+}
 @media (min-width: 480px){
     .product-gender-container{
         width: 80%;
