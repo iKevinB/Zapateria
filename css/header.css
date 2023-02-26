@@ -107,7 +107,6 @@ header{
     font-size: 20px;
     cursor: pointer;
 }
-
 .header-logo{
     list-style: none;
     position: fixed;
@@ -116,7 +115,6 @@ header{
     left: 5px;
     z-index: 11;
 }
-
 .carousel-item img{
     height: 95vh;
     width: 100%;
@@ -220,7 +218,3 @@ header{
         margin: auto;
     }
 }
-
-
-
-
