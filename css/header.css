@@ -14,7 +14,7 @@ header{
 .header-svg{
     
     width: 100%;
-    margin-top: -1.1em;
+    margin-top: -2.5em;
     position: fixed;
     z-index: 10;
     filter: drop-shadow(3px 3px 3px gray);
@@ -115,10 +115,11 @@ header{
     cursor: pointer;
 }
 
-.logo{
+.header-logo{
     list-style: none;
     position: fixed;
-    top: 8px;
+    width:140px;
+    top: -5px;
     left: 5px;
     z-index: 11;
 }
@@ -132,6 +133,7 @@ header{
     margin-top: 3em;
 }
 #logo-navigation{
+    
     text-decoration: none;
     color: white;
     position: absolute;
