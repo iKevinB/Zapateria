@@ -42,14 +42,7 @@ header{
     rotate: 300deg;
 
 }
-.logo{
-    display: none;
-}
-.logo2{
-    list-style: none;
-    padding: 1em;
-    cursor: pointer;
-}
+
 .first-headerCarrousel-img{
     
     filter: opacity(0.8) drop-shadow(0 0 0 black ) blur(1px);
