@@ -24,8 +24,7 @@ header{
     background-color: var(--third-color);
     width: 100%;
     z-index: 13;
-    height: 3.3em;
-    
+    height: 3.3em; 
 }
 .navigation2 a{
     cursor: pointer;
