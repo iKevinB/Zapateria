@@ -11,8 +11,7 @@ header{
     transform: translateY(-20em);
     transition: transform 0.5s ease;
 }
-.header-svg{
-    
+.header-svg{  
     width: 100%;
     margin-top: -2.5em;
     position: fixed;
