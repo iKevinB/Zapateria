@@ -95,6 +95,32 @@
 .carrousel-img{
     object-fit: cover;
 }
+.offers-title{
+    text-align: center;
+}
+.offers{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.offers__group del{
+    color: gray;
+}
+.offers__group p{
+    color: red;
+}
+.offers__group{
+    margin-top: 3em;
+}
+.offers img{
+    width: 70%;
+    
+}
+.offers__price{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
 @media (min-width: 480px){
     .carrousels{
         width: 85%;
