@@ -21,7 +21,7 @@ header{
 .navigation2{
     position: fixed;
     top: 0;
-    background-color: var(--third-color);
+    background-color: gold;
     width: 100%;
     z-index: 13;
     height: 3.3em;
@@ -77,8 +77,8 @@ header{
     margin-top: 1em;
     margin-left: 5px;
     margin-right: 5px;
-    background-color: var(--third-color);
-    color: white;
+    background-color: gold;
+    color: black;
 }
 .show{
     transform: translateY(30em);
@@ -113,7 +113,7 @@ header{
     z-index: 11;
 }
 .carousel-item img{
-    height: 95vh;
+    height: 100vh;
     width: 100%;
     object-fit: cover;
 }
@@ -135,23 +135,22 @@ header{
     grid-template-columns: 1fr;
     margin-top: 2em;
     margin-bottom: 7em;
+    text-align: center;
 }
 .main-text button{
     margin-top: 1em;
-    border-radius: 20px;
+    border-radius: 5px;
     position: relative;
     background-color: var(--third-color);
     color: white;
     width: 40%;
-    left: 30%;
     padding: 10px;
     border: none;
 }
 @media (min-width: 480px){
     .main-text button{
-        margin-top: 5em;
+        margin-top: 1em;
         width: 60%;
-        left: 20%;
         padding: 5px;
     }
     .main-text img{
@@ -184,10 +183,11 @@ header{
     .header-svg{
         margin-top: -7em;
     }
+    .main-text h2{
+        margin-top: 3em;
+    }
     .main-text button{
-        margin-top: 8em;
         width: 30%;
-        left: 35%;
         padding: 8px;
     }
     .list-item{
@@ -195,6 +195,17 @@ header{
     }
 }
 @media (min-width: 1024px){
+    
+    .header-logo{
+        margin-left: 1.5em;
+        width: 170px;
+    }
+    .navigation{
+        top: 0;
+        background-color: gold;
+        height: 10%;
+    }
+
     .header-text{
         font-size: 30px;
         text-align: center;
@@ -208,6 +219,7 @@ header{
         width: 100%;
     }
     .header-btn button{
+        font-weight: bolder;
         font-size: 20px;
         width: 15%;
         padding: 7px;
@@ -217,7 +229,7 @@ header{
     }
     
     .navigation{
-        position: static;
+        position: fixed;
         display: flex;
         justify-content: flex-end;
         transform: translateZ(20em);
@@ -226,10 +238,10 @@ header{
        display: none;
     }
     .main-text button{
-        margin-top: 10em;
+        margin-top: 3em;
     }
     #list-item-home{
-        margin-top: auto;
+        margin-top: 1em;
     }
     #carouselExampleIndicators{
         margin-top: 0;
@@ -237,26 +249,22 @@ header{
     .hamburger{
         visibility: hidden;
     }
-    .logo{
-        display: flex;
-        margin-left: 2em;
-        padding: 0.5em;
-        justify-content: flex-start;
-        cursor: pointer;
-    }
+   
     .list-item{
         transition: color .4s;
         font-size: 18px;
         padding: 0;
         margin: 1em;
         margin-right: 2em;
+        margin-top: 1em;
         align-items: center;
+        color: black;
         transition: 0.3s;
     }
     .list-item:hover{
         transition: 0.3s;
         text-decoration: underline;
-        color: rgb(19, 19, 19);
+        color: rgb(255, 255, 255);
     }
     
     .headerCarrousel-img{
@@ -266,8 +274,16 @@ header{
     }  
 }
 @media (min-width: 1200px){
-    #carouselExampleIndicators{
-        width: 90%;
-        margin: auto;
+    
+}
+@media (min-width: 1440px){
+   
+
+    .main-text h2{
+        margin-top: 5em;
+        vertical-align: middle;
+    }
+    .main-text button{
+        margin-top: 5em;
     }
 }
