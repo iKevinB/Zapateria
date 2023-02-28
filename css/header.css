@@ -39,11 +39,9 @@ header{
 }
 .navigation2 i{
     rotate: 300deg;
-
 }
 
 .first-headerCarrousel-img{
-    
     filter: opacity(0.8) drop-shadow(0 0 0 black ) blur(1px);
 }
 
@@ -74,7 +72,7 @@ header{
 }
 .header-btn button{
     border: none;
-    border-radius: 20px;
+    border-radius: 5px;
     padding: 10px;
     margin-top: 1em;
     margin-left: 5px;
@@ -138,7 +136,24 @@ header{
     margin-top: 2em;
     margin-bottom: 7em;
 }
+.main-text button{
+    margin-top: 1em;
+    border-radius: 20px;
+    position: relative;
+    background-color: var(--third-color);
+    color: white;
+    width: 40%;
+    left: 30%;
+    padding: 10px;
+    border: none;
+}
 @media (min-width: 480px){
+    .main-text button{
+        margin-top: 5em;
+        width: 60%;
+        left: 20%;
+        padding: 5px;
+    }
     .main-text img{
         width: 115%;
     }
@@ -166,6 +181,15 @@ header{
     }
 }
 @media (min-width: 768px){
+    .header-svg{
+        margin-top: -7em;
+    }
+    .main-text button{
+        margin-top: 8em;
+        width: 30%;
+        left: 35%;
+        padding: 8px;
+    }
     .list-item{
         padding: 20px;
     }
@@ -191,11 +215,18 @@ header{
     .navigation2{
         display: none;
     }
+    
     .navigation{
         position: static;
         display: flex;
         justify-content: flex-end;
         transform: translateZ(20em);
+    }
+    .header-svg{
+       display: none;
+    }
+    .main-text button{
+        margin-top: 10em;
     }
     #list-item-home{
         margin-top: auto;
@@ -231,6 +262,7 @@ header{
     .headerCarrousel-img{
         object-fit: cover;
         width: 100%;
+        z-index: 2;
     }  
 }
 @media (min-width: 1200px){

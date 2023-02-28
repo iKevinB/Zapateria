@@ -29,6 +29,9 @@ footer{
     cursor: pointer;
 }
 @media (min-width: 768px){
+    .footer-svg{
+        margin-bottom: -8em;
+    }
     .footer-content{
         justify-content: center;
         justify-content: space-evenly;
@@ -48,6 +51,9 @@ footer{
     }
 }
 @media (min-width: 1024px){
+    .footer-svg{
+        margin-bottom: 0;
+    }
     footer{
         margin-top: -3em;
     }

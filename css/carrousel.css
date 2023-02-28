@@ -134,6 +134,9 @@
     }
 }
 @media (min-width: 768px){
+    .offers img{
+        width: 50%;
+    }
     .carrousel-man,
     .carrousel-woman,
     .carrousel-kids{ 
