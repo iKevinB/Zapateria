@@ -12,7 +12,15 @@
 .contact-item i{
     color: white;
     margin: 10px;
-    font-size: 30px;
+    font-size: 25px;
+}
+#social i{
+    font-size: 35px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#social i:hover{
+    color: gold;
 }
 .contact-item h3{
     color: white;
@@ -32,6 +40,9 @@
     }
 }
 @media (min-width: 1024px){
+    .wave2{
+        bottom: 6em;
+    }
     .contact-container{
         display: flex;
         gap: 1em;

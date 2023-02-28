@@ -4,7 +4,7 @@ header{
 .navigation{
     position: fixed;
     top: -30em;
-    background-color: var(--third-color);
+    background-color: gold;
     z-index: 12;
     width: 100%;
     height: 70%;
@@ -29,7 +29,6 @@ header{
 }
 .navigation2 a{
     cursor: pointer;
-    
     font-size: 25px;
     text-decoration: none;
     color: rgb(33, 32, 32);
@@ -71,6 +70,7 @@ header{
     margin-top: 15px;
 }
 .header-btn button{
+    font-weight: 700;
     border: none;
     border-radius: 5px;
     padding: 10px;
@@ -79,6 +79,11 @@ header{
     margin-right: 5px;
     background-color: gold;
     color: black;
+    transition: 0.5s;
+}
+.header-btn button:hover{
+    background-color: black;
+    color: gold;
 }
 .show{
     transform: translateY(30em);
@@ -95,7 +100,7 @@ header{
 }
 .list-item{
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: black;
     display: block;
     padding: 20px;
     list-style: none;
@@ -141,11 +146,17 @@ header{
     margin-top: 1em;
     border-radius: 5px;
     position: relative;
-    background-color: var(--third-color);
+    background-color: gold;
+    box-shadow: 3px 3px 3px gray;
     color: white;
     width: 40%;
     padding: 10px;
     border: none;
+    transition: 0.5s;
+}
+.main-text button:hover{
+    background-color: black;
+    color: gold;
 }
 @media (min-width: 480px){
     .main-text button{
@@ -154,16 +165,14 @@ header{
         padding: 5px;
     }
     .main-text img{
-        width: 115%;
+        width: 100%;
     }
     .main-text{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
-    
-    .main-text p{
-        position: relative;
-        top: 30%;
+    .main-text h2{
+        text-align: left;
     }
 
     .header-svg{
@@ -184,6 +193,8 @@ header{
         margin-top: -7em;
     }
     .main-text h2{
+        width: 90%;
+        margin: auto;
         margin-top: 3em;
     }
     .main-text button{
@@ -274,7 +285,9 @@ header{
     }  
 }
 @media (min-width: 1200px){
-    
+    .main-text h2{
+        margin-top: 5em;
+    }
 }
 @media (min-width: 1440px){
    

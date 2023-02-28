@@ -28,6 +28,9 @@ footer{
     text-decoration: underline;
     cursor: pointer;
 }
+.wave2{
+    margin-top: 2em;
+}
 @media (min-width: 768px){
     .footer-svg{
         margin-bottom: -3em;
