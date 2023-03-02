@@ -174,7 +174,6 @@ header{
     .main-text h2{
         text-align: left;
     }
-
     .header-svg{
         margin-top: -4em;
     }
@@ -260,7 +259,6 @@ header{
     .hamburger{
         visibility: hidden;
     }
-   
     .list-item{
         transition: color .4s;
         font-size: 18px;
@@ -277,7 +275,6 @@ header{
         text-decoration: underline;
         color: rgb(255, 255, 255);
     }
-    
     .headerCarrousel-img{
         object-fit: cover;
         width: 100%;
