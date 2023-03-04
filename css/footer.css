@@ -3,6 +3,21 @@ footer{
     padding-top: 3em;
     padding-bottom: 4px;
     font-family: 'Josefin Sans';
+    font-weight: bolder;
+    color: black;
+}
+.top-btn button{
+    width: 50%;
+    border: none;
+    background-color: black;
+    color: gold;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.top-btn button:hover{
+    background-color: gold;
     color: black;
 }
 .footer-content{
@@ -31,9 +46,15 @@ footer{
     margin-top: 2em;
 }
 .top-btn{
+    text-align: center;
     
 }
+
 @media (min-width: 768px){
+    .top-btn button{
+        width: 40%;
+        padding: 20px;
+    }
     .footer-svg{
         margin-bottom: -3em;
     }
@@ -56,6 +77,10 @@ footer{
     }
 }
 @media (min-width: 1024px){
+    .top-btn button{
+        width: 20%;
+        padding: 20px;
+    }
     .footer-svg{
         margin-bottom: 0;
     }

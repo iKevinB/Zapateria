@@ -2,6 +2,7 @@ header{
     font-family: 'Josefin Sans';
 }
 .navigation{
+    
     position: fixed;
     top: -30em;
     background-color: gold;
@@ -11,12 +12,7 @@ header{
     transform: translateY(-20em);
     transition: transform 0.5s ease;
 }
-#categories-hover::after{
-    content: "hola";
-    position: absolute;
-    top: 100%;
-    margin-right: 3em;
-}
+
 .header-svg{  
     width: 100%;
     margin-top: -2.5em;
@@ -75,6 +71,9 @@ header{
 .header-btn{
     margin-top: 15px;
 }
+.navigation a{
+    text-decoration: none;
+}
 .header-btn button{
     font-weight: 700;
     border: none;
@@ -86,6 +85,7 @@ header{
     background-color: gold;
     color: black;
     transition: 0.5s;
+
 }
 .header-btn button:hover{
     background-color: black;
@@ -104,16 +104,20 @@ header{
 #list-item-home{
     margin-top: 3em;
 }
-.list-item{
-    text-decoration: none;
-    color: black;
+
+.navigation button{
     display: block;
+    width: 100%;
+    margin: auto;
+    border: none;
+    background-color: gold;
+    margin-top: 1em;
     padding: 20px;
-    list-style: none;
-    text-align: center;
     font-weight: bolder;
-    font-size: 20px;
-    cursor: pointer;
+}
+.navigation button:hover{
+    background-color: black;
+    color: gold;
 }
 .header-logo{
     list-style: none;
@@ -147,6 +151,9 @@ header{
     margin-top: 2em;
     margin-bottom: 7em;
     text-align: center;
+}
+.main-text h2{
+    font-weight: bolder;
 }
 .main-text button{
     margin-top: 1em;
@@ -211,7 +218,6 @@ header{
     }
 }
 @media (min-width: 1024px){
-    
     .header-logo{
         margin-left: 1.5em;
         width: 170px;
@@ -220,6 +226,7 @@ header{
         top: 0;
         background-color: gold;
         height: 10%;
+        
     }
 
     .header-text{
@@ -257,7 +264,7 @@ header{
         margin-top: 3em;
     }
     #list-item-home{
-        margin-top: 1em;
+        margin-top: 0em;
     }
     #carouselExampleIndicators{
         margin-top: 0;
@@ -265,22 +272,21 @@ header{
     .hamburger{
         visibility: hidden;
     }
-    .list-item{
-        transition: color .4s;
-        font-size: 18px;
-        padding: 0;
-        margin: 1em;
-        margin-right: 2em;
-        margin-top: 1em;
-        align-items: center;
-        color: black;
-        transition: 0.3s;
+    .navigation button{
+        height: 100%;
+        padding: 1em;
+        margin-right: 1em;
+        border: none;
+        background-color: gold;
+        font-weight: bolder;
+        transition: 0.5s;
+        margin-top: 0;
     }
-    .list-item:hover{
-        transition: 0.3s;
-        text-decoration: underline;
-        color: rgb(255, 255, 255);
+    .navigation button:hover{
+        background-color: black;
+        color: gold;
     }
+
     .headerCarrousel-img{
         object-fit: cover;
         width: 100%;

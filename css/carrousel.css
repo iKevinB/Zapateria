@@ -152,11 +152,15 @@
     }
 }
 @media (min-width: 1024px){
+    .offers-title{
+        margin-top: 4em;
+    }
     .offers{
         grid-template-columns: repeat(3, 1fr);
+        
     }
     .carrousels{
-        margin-top: -8em;
+        margin-top: -5em;
     }
     .carrousel__next,
     .carroudel__next2,
