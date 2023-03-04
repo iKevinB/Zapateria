@@ -30,6 +30,9 @@ footer{
 .wave2{
     margin-top: 2em;
 }
+.top-btn{
+    
+}
 @media (min-width: 768px){
     .footer-svg{
         margin-bottom: -3em;
