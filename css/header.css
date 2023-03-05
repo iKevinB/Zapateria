@@ -12,7 +12,6 @@ header{
     transform: translateY(-20em);
     transition: transform 0.5s ease;
 }
-
 .header-svg{  
     width: 100%;
     margin-top: -2.5em;
@@ -27,7 +26,6 @@ header{
     width: 100%;
     z-index: 13;
     height: 3.3em;
- 
 }
 .navigation2 a{
     cursor: pointer;
@@ -85,7 +83,6 @@ header{
     background-color: gold;
     color: black;
     transition: 0.5s;
-
 }
 .header-btn button:hover{
     background-color: black;
@@ -225,10 +222,8 @@ header{
     .navigation{
         top: 0;
         background-color: gold;
-        height: 10%;
-        
+        height: 10%;  
     }
-
     .header-text{
         font-size: 30px;
         text-align: center;
@@ -250,7 +245,6 @@ header{
     .navigation2{
         display: none;
     }
-    
     .navigation{
         position: fixed;
         display: flex;
@@ -286,7 +280,6 @@ header{
         background-color: black;
         color: gold;
     }
-
     .headerCarrousel-img{
         object-fit: cover;
         width: 100%;
@@ -299,8 +292,6 @@ header{
     }
 }
 @media (min-width: 1440px){
-   
-
     .main-text h2{
         margin-top: 5em;
         vertical-align: middle;

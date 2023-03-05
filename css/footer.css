@@ -46,10 +46,8 @@ footer{
     margin-top: 2em;
 }
 .top-btn{
-    text-align: center;
-    
+    text-align: center;   
 }
-
 @media (min-width: 768px){
     .top-btn button{
         width: 40%;
