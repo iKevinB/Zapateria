@@ -110,14 +110,14 @@
             </button>
           </div>
           <section class="product-gender">
-            <div class="main-text">
+            <div data-aos="fade-right" class="main-text" >
                 <img class="main-img" src="img/zapateria-mainImg.png" alt="">
                 <div>
                     <h2>¿Que esperas para explorar nuestras nuevas promociones?</h2>
                     <a href="#Promos"><button>Ver ofertas <i class="fa-sharp fa-solid fa-arrow-down"></i></button></a>
                 </div>
             </div>
-              <div id="Categories" class="product-gender-container" data-aos="fade-left">
+              <div id="Categories" class="product-gender-container">
                   <div class="men-content">
                     <img class="img-section" src="img/men-img.jpg" alt="">
                     <a href="" class="label-product">Hombre <i class="fa-solid fa-arrow-right"></i></a>
@@ -356,7 +356,7 @@
         <svg class="wave2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#191919" fill-opacity="1" d="M0,224L720,64L1440,256L1440,0L720,0L0,0Z"></path>
         </svg>
-    <div class="top-btn">
+    <div data-aos="flip-right" class="top-btn">
         <a href="#Inicio"><button><i class="fa-solid fa-arrow-up"></i> Volver arriba <i class="fa-solid fa-arrow-up"></i></button></a>
     </div>
     </section>
@@ -384,14 +384,17 @@
         </div>
         <p class="copy">Copyright © Zapateria 2023, all rights reserved.</p>
     </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"> </script>
     <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.8/glider.min.js"></script>
-    <script src="js/carrousel.js"></script>
-    <script src="js/hamburger.js"></script>
-
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init();
-      </script>
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+    </script>
+
+    <script src="js/carrousel.js"></script>
+    <script src="js/hamburger.js"></script>
+</body>
 </html>

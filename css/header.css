@@ -218,6 +218,7 @@ header{
     .header-logo{
         margin-left: 1.5em;
         width: 170px;
+        top: -10px;
     }
     .navigation{
         top: 0;
